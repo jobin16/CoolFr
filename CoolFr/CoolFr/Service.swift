@@ -8,9 +8,9 @@
 
 import Foundation
 
-class Service {
+public class Service {
     
-    public static func name() {
-        
+    public static func name() -> String? {
+        return "Fuck off"
     }
 }

@@ -4,6 +4,6 @@ target 'CoolApop' do
 
   use_frameworks!
 
-  Pod 'CoolJob', :path => "../CoolJob/"
+pod 'CoolFr', :path => "../CoolFr/"
 
 end

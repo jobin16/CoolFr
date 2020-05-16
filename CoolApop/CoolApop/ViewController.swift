@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import CoolFr
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let name = Service.name()
+        print(name!)
         // Do any additional setup after loading the view.
     }
 

@@ -1,0 +1,6 @@
+framework module CoolFr {
+  umbrella header "CoolFr-umbrella.h"
+
+  export *
+  module * { export * }
+}

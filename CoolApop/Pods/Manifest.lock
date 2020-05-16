@@ -1,0 +1,16 @@
+PODS:
+  - CoolFr (1.2.0)
+
+DEPENDENCIES:
+  - CoolFr (from `../CoolFr/`)
+
+EXTERNAL SOURCES:
+  CoolFr:
+    :path: "../CoolFr/"
+
+SPEC CHECKSUMS:
+  CoolFr: d4a2719491e333bc258821aa8e3cd2c0a8453493
+
+PODFILE CHECKSUM: 75b82bb07645912c05e6ae1381329a2c7e29496c
+
+COCOAPODS: 1.7.5
