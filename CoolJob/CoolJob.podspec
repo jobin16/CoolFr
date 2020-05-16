@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "CoolFr"
+  s.name         = "CoolJob"
   s.version      = "1.0.1"
   s.summary      = "My Framework."
   s.description  = "The first framework to test all things"
