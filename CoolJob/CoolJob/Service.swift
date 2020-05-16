@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+class Service {
+    public static func log() -> String? {
+        return "Logged"
+    }
+}

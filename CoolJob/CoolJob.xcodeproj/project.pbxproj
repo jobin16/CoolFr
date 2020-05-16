@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18C58576247080CA00F04723 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C58575247080CA00F04723 /* Service.swift */; };
 		18E72FC1246DC91A0058118C /* CoolJob.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E72FBF246DC91A0058118C /* CoolJob.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18C58575247080CA00F04723 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		18E72FBC246DC91A0058118C /* CoolJob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoolJob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E72FBF246DC91A0058118C /* CoolJob.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoolJob.h; sourceTree = "<group>"; };
 		18E72FC0246DC91A0058118C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 			children = (
 				18E72FBF246DC91A0058118C /* CoolJob.h */,
 				18E72FC0246DC91A0058118C /* Info.plist */,
+				18C58575247080CA00F04723 /* Service.swift */,
 			);
 			path = CoolJob;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					18E72FBB246DC91A0058118C = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C58576247080CA00F04723 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,7 @@
 		18E72FC5246DC91A0058118C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6V7X929749;
@@ -276,6 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Jobin.CoolJob;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +291,7 @@
 		18E72FC6246DC91A0058118C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6V7X929749;
